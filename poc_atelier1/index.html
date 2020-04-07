@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="plugins/FontAwesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>POC Atelier 1</title>
+</head>
+<body class="main-background">
+
+    <!-- Affichage du total de la consommation -->
+    <h1 class="highlighted" id="total"> TOTAL </h1>
+
+    <section class="container-fluid main-background py-5" id="section-1">
+
+        <img class="img-fit top-left" src="assets/images/logo-4.png" alt="">
+
+        <div class="row justify-content-center text-center">
+            <div class="col-12">
+                <h1 class="p-5">Cycle de vie d'un <span class="highlighted"> téléphone portable</span> </h1>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-6 col-lg-4 col-md-4">
+                <img class="img-fit text-center" src="assets/images/puzzle/phonecompleted.png" alt="Image d'un téléphone">
+            </div>
+            <div class="col-6 col-lg-4 col-md-4">
+                <img class="img-fit" src="assets/images/process%20(1).png" alt="Image d'une succession d'étape">
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-3 mx-2">
+                <figure class="text-center">
+                    <figcaption> <h2>De sa création ...</h2></figcaption>
+                    <img class="img-fit" src="assets/images/product.png" alt="">
+                </figure>
+            </div>
+            <div class="col-3 mx-2">
+                <figure class="text-center">
+                    <figcaption> <h2>à son utilisation ...</h2></figcaption>
+                    <img class="img-fit" src="assets/images/utilisation.png" alt="">
+                </figure>
+            </div>
+            <div class="col-3 mx-2">
+                <figure class="text-center">
+                    <figcaption> <h2>jusqu'à sa destruction !</h2></figcaption>
+                    <img class="img-fit" src="assets/images/poubelle.png" alt="">
+                </figure>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid justify-content-center vertical-align py-5" style="display: none" id="section-2">
+
+        <div class="row my-auto justify-content-center text-center">
+            <div class="col-8">
+                <hr class="hr-blue"/>
+            </div>
+            <div class="col-12">
+                <h1 class="title p-5">Première étape phase de l'atelier n°1<br />La construction du téléphone</h1>
+            </div>
+            <div class="col-8">
+                <hr class="hr-red"/>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid vertical-align" style="display: none" id="section-3">
+
+        <div class="col-1">
+            <div class="row justify-content-start text-center">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <img class="img-sidebar img-transform" src="assets/images/battery.png" component-name="battery">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <img class="img-sidebar img-transform" src="assets/images/camera.png" component-name="camera">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <img class="img-sidebar img-transform" src="assets/images/fingerprint.png" component-name="fingerprint">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <img class="img-sidebar img-transform" src="assets/images/speaker.png" component-name="speaker">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <img class="img-sidebar img-transform" src="assets/images/electronic.png" component-name="electronic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <p class="battery text-bubble" style="display: none">Batterie<br><br>On y trouve principalement du lithium, du carbone et de l'aluminium</p>
+                    <p class="camera text-bubble" style="display: none">Appareil photo<br><br>Il capture maintenant chaque instant de votre vie mais cela à plus qu'un prix</p>
+                    <p class="fingerprint text-bubble" style="display: none">Capteur d'empreinte<br><br>Il vous sert à dévérouiller votre téléphone. On parle aussi d'empreinte carbone !</p>
+                    <p class="speaker text-bubble" style="display: none">Haut-parleur<br><br>Utile pour regarder des vidéos ou passer des appels, il est aussi composé de néodyme ou encore de cuivre</p>
+                    <p class="electronic text-bubble" style="display: none">Carte mère<br><br> C'est le cerveau de votre téléphone. Elle commande toutes les actions</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-4">
+            <div class="row justify-content-center text-center">
+                <div class="col-12">
+                    <img class="img-fluid component-steps" src="assets/images/puzzle/androidmobile-phone_85137.png" alt="">
+                    <button class="btn btn-lg btn-success btn-build-phone mt-3" style="display: none"> <span>Finir l'assemblage du téléphone !</span></button>
+                    <p class="text-center text-bubble text-build-phone mt-3" style="display: none"> Bravo ! Vous avez achevé la construction de votre smartphone, ce qui a consommé X tonnes de CO2.<br><br>Vous pouvez redécouvrir chaque composant du téléphone !</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <p class="battery text-bubble" style="display: none">Le lithium devient monnaie courante sur le continent Africain. Il est le centre de nombreux trafics et d'une guerre commerciale</p>
+                    <p class="camera text-bubble" style="display: none">Le stockage de milliards de photos sur les Clouds est une des principales consommations d'énergie des data centers </p>
+                    <p class="fingerprint text-bubble" style="display: none">L'empreinte carbone d'une activité humaine est une mesure des émissions de gaz à effet de serre lié à cette activité</p>
+                    <p class="speaker text-bubble" style="display: none">L'extraction du néodyme nécessite le travail de milliers d'enfants dans les mines, et ce sur tous les contienents du monde</p>
+                    <p class="electronic text-bubble" style="display: none">Elle contient près de 30 métaux , dont de l'or, de l'étain et du tantale. Des mètres cubes de terre sont déplacés par des enfants pour dénicher ces métaux</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <img class="img-puzzle components-puzzle-5" src="assets/images/puzzle/piece9.png">
+                    <img class="img-puzzle components-puzzle-4" src="assets/images/puzzle/piece8.png">
+                    <img class="img-puzzle components-puzzle-4" src="assets/images/puzzle/piece7.png">
+                    <img class="img-puzzle components-puzzle-3" src="assets/images/puzzle/piece6.png">
+                    <img class="img-puzzle components-puzzle-3" src="assets/images/puzzle/piece5.png">
+                    <img class="img-puzzle components-puzzle-2" src="assets/images/puzzle/piece4.png">
+                    <img class="img-puzzle components-puzzle-2" src="assets/images/puzzle/piece3.png">
+                    <img class="img-puzzle components-puzzle-1" src="assets/images/puzzle/piece2.png">
+                    <img class="img-puzzle components-puzzle-1" src="assets/images/puzzle/piece1.png">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid justify-content-center vertical-align py-5" style="display: none" id="section-4">
+
+        <div class="row my-auto justify-content-center text-center">
+            <div class="col-8">
+                <hr class="hr-blue"/>
+            </div>
+            <div class="col-12">
+                <h1 class="title p-5">Deuxième phase de l'atelier n°1<br />L'utilisation du téléphone</h1>
+            </div>
+            <div class="col-8">
+                <hr class="hr-red"/>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid justify-content-center vertical-align py-5" style="display: none" id="section-5">
+
+        <h2 class="top-left"> Et maintenant ? </h2>
+
+        <div class="row">
+            <div class="col-12 p-5">
+                <div class="row vertical-align">
+                    <div class="col-4">
+                        <figure class="text-center">
+                            <figcaption class="text-left"> <p class="text-bubble phonecall mt-3" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></figcaption>
+                            <img class="img-fit img-transform" use-cat="phonecall" src="assets/images/phone.png">
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure class="text-center">
+                            <figcaption class="text-left"> <p class="text-bubble googlesearch mt-3" style="display: none">Impact: 0,3Wh pour 0,2g d'éq de CO2<br><br>En sachant que <span class="highlighted">80 000 </span>recherches sont faites à la <span class="highlighted">seconde</span>. Cela produit un total de <span class="highlighted">24 000 Wh/s</span> soit l'&quivalent d'une ampoule allumée en continu pendant environ <span class="highlighted">1 mois et demi</span>!</p></figcaption>
+                            <img class="img-fit img-transform" use-cat="googlesearch" src="assets/images/search.png">
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure class="text-center">
+                            <figcaption class="text-left"> <p class="text-bubble onlinepayment mt-3" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></figcaption>
+                            <img class="img-fit img-transform" use-cat="onlinepayment" src="assets/images/bank.png">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 p-5">
+                <div class="row vertical-align">
+                    <div class="col-4">
+                        <figure class="text-center">
+                            <figcaption class="text-left"> <p class="text-bubble youtube mt-3" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></figcaption>
+                            <img class="img-fit img-transform" use-cat="youtube" src="assets/images/youtube.png">
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure class="text-center">
+                            <figcaption class="text-left"> <p class="text-bubble socialnetworks mt-3" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></figcaption>
+                            <img class="img-fit img-transform" use-cat="socialnetworks" src="assets/images/socialMedia.png">
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure class="text-center">
+                            <figcaption class="text-left"> <p class="text-bubble gmail mt-3" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></figcaption>
+                            <img class="img-fit img-transform" use-cat="gmail" src="assets/images/icons8-gmail-480.png">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid justify-content-center vertical-align py-5" style="display: none" id="section-6">
+
+        <div class="row my-auto justify-content-center text-center">
+            <div class="col-8">
+                <hr class="hr-blue"/>
+            </div>
+            <div class="col-12">
+                <h1 class="title p-5">Troisième phase de l'atelier n°1<br>La destruction du téléphone</h1>
+            </div>
+            <div class="col-8">
+                <hr class="hr-red"/>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid justify-content-center vertical-align py-5" style="display: none" id="section-7">
+
+        <h2 class="top-left"> Destruction ? Inutilisation ? </h2>
+
+        <div class="row justify-content-center">
+            <div class="col-4 p-5 text-center">
+                <img class="img-fluid" style="cursor: pointer" phone-direction="trash" src="assets/images/puzzle/phonecompleted.png" alt="">
+                <p class="text-center text-bubble text-phone-to-trash mt-3 visible">Cliquez pour mettre le téléphone à la poubelle</p>
+            </div>
+            <div class="col-4 p-5 text-center vertical-align">
+                <img class="img-fluid" src="assets/images/trash.png" alt="">
+            </div>
+            <div class="col-4 p-5 text-center vertical-align">
+                <p class="text-center text-bubble phone-trash mt-3 invisible">Le plastique ainsi que les métaux contenus dans notre télephone poulluent ! Aussi bien l'air, l'eau, la terre ou le sol. Les ressources sont limitées. Sachez que 80% d'un téléphone jeté est recyclable. La destruction de ses composants ont un impact humain et environnementale important !</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid justify-content-center vertical-align py-5" style="display: none" id="section-8">
+
+        <div class="row my-auto justify-content-center text-center">
+            <div class="col-8">
+                <hr class="hr-blue"/>
+            </div>
+            <div class="col-12">
+                <h1 class="title p-5">Dernière phase de l'atelier n°1<br>L'alternative Fairphone</h1>
+            </div>
+            <div class="col-8">
+                <hr class="hr-red"/>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid justify-content-center vertical-align py-5" style="display: none" id="section-9">
+
+        <h2 class="top-left"> Comment faire face ? </h2>
+
+        <div class="row justify-content-center vertical-align">
+            <div class="col-7 text-center">
+                <img class="img-fit" src="assets/images/Fairphone_logo.png" alt="">
+                <img class="img-fit-3x" src="assets/images/fairphone-3-modularity.png" alt="">
+            </div>
+            <div class="col-5 pr-5 text-center">
+               <h2>
+                   <span class="highlighted">Fairphone</span> mise sur des smartphones <span class="highlighted">durables</span><br><br>
+                   <span class="highlighted">Eco-conçus </span>et <span class="highlighted">modulables </span>, ces smartphones vous permettent de changer facilement les pièces défaillantes
+               </h2>
+                <h1><span class="highlighted">#WeAreFairphone</span></h1>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Flèche de retour  -->
+    <div class="row">
+        <a class="previous-section" style="cursor:pointer;">
+            <i class="previous-arrow fas fa-arrow-left fa-4x"></i>
+        </a>
+    </div>
+
+    <!-- Flèche suivant -->
+    <div class="row">
+        <a class="next-section" style="cursor:pointer;">
+            <i class="next-arrow fas fa-arrow-right fa-4x"></i>
+        </a>
+    </div>
+
+    <script src="plugins/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
