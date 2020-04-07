@@ -1,5 +1,7 @@
 body{
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
 }
 ​
 .container{
@@ -11,4 +13,10 @@ iframe{
 }
 div{
     text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #F73722;
+    text-decoration: underline;
 }
